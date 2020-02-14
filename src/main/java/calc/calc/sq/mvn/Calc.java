@@ -10,9 +10,9 @@ public class Calc extends java.lang.Thread{
     }
     public double doSub(double num1, double num2){
     	int value = new Integer(123);
-        double SUB = 0;
-        SUB = num1 - num2;
-    	return SUB;
+        double sub = 0;
+        sub = num1 - num2;
+    	return sub;
     }
     public double doMul(double num1, double num2){
         return num1 * num2;
